@@ -4,7 +4,7 @@ class CoolHangouts {
 
 
     fun main() {
-        var myAddress = 236
+        val myAddress = 236
         fun myFunction(int: Int) = print(myAddress)
 
         myFunction(myAddress)
@@ -33,9 +33,9 @@ class CoolHangouts {
 fun rule(args: Array<Boolean>) {
     val myRules = ("no cursing, no drinking, no immorality")
     fun myFunction(str: String) = print(myRules)
-    if (False) {
+    if (false) {
         (" Ban Account")
-    } else if(True) {
+    } else if(true) {
 
         ("Access Granted")
     }
@@ -46,6 +46,6 @@ fun friend () {
     var addfriend = "New Friend"
     fun myFunction(str: String) = print(addfriend)
 
-    myfunction(addfriend)
+    myFunction(addfriend)
     println(addfriend)
 }
